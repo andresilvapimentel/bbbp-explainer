@@ -1,6 +1,8 @@
 # bbbp-explainer
 <img src="emoji brain.jpg" alt="drawing" width="200"/>
 
+[![DOI](https://zenodo.org/badge/606507245.svg)](https://zenodo.org/badge/latestdoi/606507245)
+
 BBBP Explainer is a code to generate structural alerts using Local Interpretable Model-Agnostic Explanations (LIME) and SHapley Additive exPlanations (SHAP) of machine learning models from the BBBP dataset.
 BBBP Explainer means Blood-Brain Barrier Explainer.
 
