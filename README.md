@@ -1,5 +1,5 @@
 # bbbp-explainer
-<img src="emoji brain.png" alt="drawing" width="200"/>
+<img src="emoji brain.jpg" alt="drawing" width="200"/>
 
 BBBP Explainer is a code to generate structural alerts using Local Interpretable Model-Agnostic Explanations (LIME) and SHapley Additive exPlanations (SHAP) of machine learning models from the BBBP dataset.
 BBBP Explainer means Blood-Brain Barrier Explainer.
@@ -17,6 +17,8 @@ The BBBP dataset is provided from the MoleculeNet and DeepChem libraries. It is 
 BBBP Explainer is 100% compatible with Google Colab platform developed in Microsoft Windows using Python version 3.8.
 
 BBBP Explainer has the following dependencies: Lime, SHAP, RDkit, DeepChem, Pandas, Matplotlib, sklearn, mols2grid, IPython and XlsxWriter.
+
+<img src="emoji brain.gif" alt="drawing" width="200"/>
 
 # Documentation
 
