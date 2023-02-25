@@ -1,4 +1,4 @@
-# bbbp-explainer
+# BBBP Explainer
 <img src="emoji brain.jpg" alt="drawing" width="200"/>
 
 [![DOI](https://zenodo.org/badge/606507245.svg)](https://zenodo.org/badge/latestdoi/606507245)
