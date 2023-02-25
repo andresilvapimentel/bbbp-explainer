@@ -34,7 +34,7 @@ Or
 
 # License
 
-BBBP Explainer is available under MIT License. See license document for more details. URL and DOI: https://github.com/andresilvapimentel/bbbp explainer (???)
+BBBP Explainer is available under MIT License. See license document for more details. URL and DOI: https://github.com/andresilvapimentel/bbbp-explainer ((https://doi.org/10.5281/zenodo.7677519)
 
 # Contributors
 
