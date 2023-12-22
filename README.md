@@ -3,7 +3,7 @@
 
 [![DOI](https://zenodo.org/badge/606507245.svg)](https://zenodo.org/badge/latestdoi/606507245)
 
-BBBP Explainer is a code to generate structural alerts using Local Interpretable Model-Agnostic Explanations (LIME) and SHapley Additive exPlanations (SHAP) of machine learning models from the BBBP dataset.
+BBBP Explainer is a code to generate structural alerts using Local Interpretable Model-Agnostic Explanations (LIME) of machine learning models from the BBBP dataset.
 BBBP Explainer means Blood-Brain Barrier Explainer.
 
 The BBBP Explainer framework is highly versatile (coded in Google Colab), with options that can be further developed and optimized by the users: it can accept any user-defined datasets (or datasets available in MoleculeNet repository), can use different fingerprints, data splitters, cross-validation methods, and any classification model from DeepChem library.
