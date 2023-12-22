@@ -12,13 +12,15 @@ There are two codes to analyze the data generated from BBBP Explainer: BBBP(0)_e
 1) BBBP(0)_explainer.ipynb explains the fragments importants of non-penetrating BBB drugs; and
 2) BBBP(1)_explainer.ipynb explains the fragments importants of penetrating BBB drugs.
 
-The BBBP dataset is provided from the MoleculeNet and DeepChem libraries. It is upload using DeepChem tools. DeepChem tools may also be used to upload any dataset in MoleculeNet or user-defined dataset. 
+The BBBP dataset is provided from the MoleculeNet and DeepChem libraries. It is upload using DeepChem tools. DeepChem tools may also be used to upload any dataset in MoleculeNet or user-defined dataset. However, the BBBP dataset was curated removing duplicate and triplicate compounds, unifying compounds with two lables, and fixing smiles with RDKit issues. The BBBP dataset was cross-validated to get the most robust models.
+
+The BBBP explainer was used with three classifiers: MultiTask, ExtraTrees, and Random Forest. And, these models were analyzed with different metrics (precision, accuracy, recall, and F1 scores) and with the confusion matrix. The models were optimized using hyperparameterization approach to get the best hyper parameters from each model and output the best results.
 
 # Installation instructions
 
 BBBP Explainer is 100% compatible with Google Colab platform developed in Microsoft Windows using Python version 3.8.
 
-BBBP Explainer has the following dependencies: Lime, SHAP, RDkit, DeepChem, Pandas, Matplotlib, sklearn, mols2grid, IPython and XlsxWriter.
+BBBP Explainer has the following dependencies: Lime, RDkit, DeepChem, Pandas, Matplotlib, sklearn, mols2grid, IPython and XlsxWriter.
 
 <img src="emoji brain.gif" alt="drawing" width="200"/>
 
@@ -41,4 +43,4 @@ BBBP Explainer is available under MIT License. See license document for more det
 # Contributors
 
 This code was written under collaboration:
-Cayque Monteiro Castro Nascimento (PhD student) and Caio Oliveira Argolo (Undergraduate student), who performed the analysis and part of the code under my guiding as advisor, Andre Silva Pimentel, who wrote most of the code.
+Cayque Monteiro Castro Nascimento (PhD student), Lucca Caiaffa Santos Rosa (Undergraduate student) and Caio Oliveira Argolo (Undergraduate student), who performed the analysis and part of the code under my guiding as advisor, Andre Silva Pimentel, who wrote most of the code with Lucca Caiaffa Santos Rosa.
