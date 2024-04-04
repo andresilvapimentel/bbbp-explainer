@@ -30,6 +30,8 @@ The BBBP dataset was cleaned to avoid repetitions and wrong smiles. The followin
 3) bbbp_curated.xlsx is a imbalanced balanced and curated dataset, which the resampling method was used to balanced the data;
 4) bbbp_removed.xlsx contains the repetitions and wrong smiles removed from the original dataset.
 
+The codes bbbp_Curated_fix.ipynb, bbbp_curation_new.ipynb, and bbbp_curation+removeddata.ipynb are different versions used to curate the oriiginal dataset. The first one is preliminary code, the second one is the actual code used to curate the data, and the third one is exactly the second one with additional code to show removed data.
+
 The BBBP explainer was used with three classifiers: MultiTask, ExtraTrees, and Random Forest. And, these models were analyzed with different metrics (ROC-AUC, precision, accuracy, recall, MCC and F1 scores) and with the confusion matrix. The models were optimized using hyperparameterization approach to get the best hyper parameters from each model and output the best results.
 
 # Installation instructions
