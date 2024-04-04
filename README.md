@@ -38,7 +38,7 @@ The BBBP explainer was used with three classifiers: MultiTask, ExtraTrees, and R
 
 BBBP Explainer is 100% compatible with Google Colab platform developed in Microsoft Windows using Python version 3.8.
 
-BBBP Explainer has the following dependencies: Lime, RDkit, DeepChem, Pandas, Matplotlib, sklearn, mols2grid, IPython and XlsxWriter.
+BBBP Explainer has the following dependencies: Lime, RDkit, DeepChem, Pandas, Matplotlib, sci-kit learn, mols2grid, IPython and XlsxWriter.
 
 <img src="emoji brain.gif" alt="drawing" width="200"/>
 
