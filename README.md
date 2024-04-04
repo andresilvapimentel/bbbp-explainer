@@ -1,20 +1,29 @@
 # BBBP Explainer
 <img src="emoji brain.jpg" alt="drawing" width="200"/>
 
-[![DOI](https://zenodo.org/badge/10920029.svg)](https://zenodo.org/badge/latestdoi/10920029)
+[![DOI](https://zenodo.org/badge/10919737.svg)](https://zenodo.org/badge/latestdoi/10919737)
 
 BBBP Explainer is a code to generate structural alerts using Local Interpretable Model-Agnostic Explanations (LIME) of machine learning models from the BBBP dataset.
 BBBP Explainer means Blood-Brain Barrier Explainer.
 
 The BBBP Explainer framework is highly versatile (coded in Google Colab), with options that can be further developed and optimized by the users: it can accept any user-defined datasets (or datasets available in MoleculeNet repository), can use different fingerprints, data splitters, cross-validation methods, and any classification model from DeepChem library.
 
-There are two codes to analyze the data generated from BBBP Explainer: BBBP(0)_explainer.ipynb and BBBP(1)_explainer.ipynb
+There are two codes to analyze the data generated from BBBP Explainer: BBBP(0)_explainer.ipynb and BBBP(1)_explainer.ipynb using the imbalanced dataset:
 1) BBBP(0)_explainer.ipynb explains the fragments importants of non-penetrating BBB drugs; and
 2) BBBP(1)_explainer.ipynb explains the fragments importants of penetrating BBB drugs.
 
-The BBBP dataset is provided from the MoleculeNet and DeepChem libraries. It is upload using DeepChem tools. DeepChem tools may also be used to upload any dataset in MoleculeNet or user-defined dataset. However, the BBBP dataset was curated removing duplicate and triplicate compounds, unifying compounds with two lables, and fixing smiles with RDKit issues. The BBBP dataset was cross-validated to get the most robust models.
+There are three codes to analyze the data generated from BBBP Explainer: bbbp_MT_Resampling_1.ipynb, bbbp_RF_Resampling_1.ipynb and bbbp_ET_Resampling_1.ipynb using the balanced dataset:
+1) bbbp_MT_Resampling_1.ipynb explains the fragments importants of penetrating BBB drugs using the Multitask classifier method, 5-fold cross-validation, and the resampling method.
+2) bbbp_RF_Resampling_1.ipynb explains the fragments importants of penetrating BBB drugs using the Random Forest classifier method, 5-fold cross-validation, and the resampling method.
+3) bbbp_ET_Resampling_1.ipynb explains the fragments importants of penetrating BBB drugs using the Extra Trees classifier method, 5-fold cross-validation, and the resampling method.
 
-The BBBP explainer was used with three classifiers: MultiTask, ExtraTrees, and Random Forest. And, these models were analyzed with different metrics (precision, accuracy, recall, and F1 scores) and with the confusion matrix. The models were optimized using hyperparameterization approach to get the best hyper parameters from each model and output the best results.
+There are two codes to analyze the data generated from BBBP Explainer: bbbp_RF_Nested_1.ipynb and bbbp_ET_Nested_1.ipynb using the balanced dataset:
+1) bbbp_RF_Nested_1.ipynb explains the fragments importants of penetrating BBB drugs using the Random Forest classifier method, 5x10 nested cross-validation, and the resampling method.
+2) bbbp_ET_Nested_1.ipynb explains the fragments importants of penetrating BBB drugs using the Extra Trees classifier method, 5x10 nested cross-validation, and the resampling method.
+
+The BBBP dataset is provided from the MoleculeNet, Scikit learn and DeepChem libraries. It is upload using DeepChem tools. DeepChem tools may also be used to upload any dataset in MoleculeNet or user-defined dataset. However, the BBBP dataset was curated removing duplicate and triplicate compounds, unifying compounds with two lables, and fixing smiles with RDKit issues. The BBBP dataset was cross-validated to get the most robust models.
+
+The BBBP explainer was used with three classifiers: MultiTask, ExtraTrees, and Random Forest. And, these models were analyzed with different metrics (ROC-AUC, precision, accuracy, recall, MCC and F1 scores) and with the confusion matrix. The models were optimized using hyperparameterization approach to get the best hyper parameters from each model and output the best results.
 
 # Installation instructions
 
