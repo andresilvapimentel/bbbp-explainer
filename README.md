@@ -23,6 +23,13 @@ There are two codes to analyze the data generated from BBBP Explainer: bbbp_RF_N
 
 The BBBP dataset is provided from the MoleculeNet, Scikit learn and DeepChem libraries. It is upload using DeepChem tools. DeepChem tools may also be used to upload any dataset in MoleculeNet or user-defined dataset. However, the BBBP dataset was curated removing duplicate and triplicate compounds, unifying compounds with two lables, and fixing smiles with RDKit issues. The BBBP dataset was cross-validated to get the most robust models.
 
+The BBBP dataset was cleaned to avoid repetitions and wrong smiles. The following data files are supplied:
+
+1) BBBP.csv is the original dataset;
+2) BBBP_curated_w.xlsx is a imbalanced and curated dataset, which weights were used to balance the data;
+3) bbbp_curated.xlsx is a imbalanced balanced and curated dataset, which the resampling method was used to balanced the data;
+4) bbbp_removed.xlsx contains the repetitions and wrong smiles removed from the original dataset.
+
 The BBBP explainer was used with three classifiers: MultiTask, ExtraTrees, and Random Forest. And, these models were analyzed with different metrics (ROC-AUC, precision, accuracy, recall, MCC and F1 scores) and with the confusion matrix. The models were optimized using hyperparameterization approach to get the best hyper parameters from each model and output the best results.
 
 # Installation instructions
