@@ -1,7 +1,7 @@
 # BBBP Explainer
 <img src="emoji brain.jpg" alt="drawing" width="200"/>
 
-[![DOI](https://zenodo.org/badge/606507245.svg)](https://zenodo.org/badge/latestdoi/606507245)
+[![DOI](https://zenodo.org/badge/10920029.svg)](https://zenodo.org/badge/latestdoi/10920029)
 
 BBBP Explainer is a code to generate structural alerts using Local Interpretable Model-Agnostic Explanations (LIME) of machine learning models from the BBBP dataset.
 BBBP Explainer means Blood-Brain Barrier Explainer.
@@ -38,7 +38,7 @@ Or
 
 # License
 
-BBBP Explainer is available under MIT License. See license document for more details. URL and DOI: https://github.com/andresilvapimentel/bbbp-explainer (https://doi.org/10.5281/zenodo.7677519)
+BBBP Explainer is available under MIT License. See license document for more details. URL and DOI: https://github.com/andresilvapimentel/bbbp-explainer (https://doi.org/10.5281/zenodo.10920029)
 
 # Contributors
 
