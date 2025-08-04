@@ -44,7 +44,7 @@ BBBP Explainer has the following dependencies: Lime, RDkit, DeepChem, Pandas, Ma
 
 # Documentation
 
-The complete documentation about how to run the BBBP Explainer protocol and several tutorials is being developed.
+The complete documentation about how to run the BBBP Explainer protocol and several tutorials are being developed. The article is now published on line: https://doi.org/10.1021/acschemneuro.3c00840
 
 # Get help
 
